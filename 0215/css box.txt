@@ -1,0 +1,28 @@
+박스를 해보면
+h1테그는 화면 전체를 사용함
+a테그는 자기가 필요한 부분만큼만 사용함
+
+화면 전체를 쓰는 애들을 block level element
+
+
+display사용하면 화면 전체 쓰더라도 inline이 됨
+display:inline추가
+inline도 화면 일부를 쓰더라도
+display:block한다면 화면 전체 사용 가능
+display:none해버리면 테그에 써놓은 말 자체가 안나옴
+
+padding은 박스안의 간격이고
+margin은 테두리와 테두리 사이의 간격임
+원래 박스는 화면 전체를 사용하는 block이지만
+width:100px 이런식으로 준다면 block이라도 적용 안되고 width로 적용됨
+
+ol은 화면 전체 쓰는 tag기 때문에 오른쪽 맨 끝에 가있음
+width값을 조정해서 폭을 조정해야함
+
+div=아무의미 없는 테그 디자인 위한 것일 뿐 화면 전체 쓰기 때문에 자동 줄바꿈 가능(block element임)
+span=inline element임
+
+나란히 배치하고 싶으면 부모테그가 필요
+
+
+

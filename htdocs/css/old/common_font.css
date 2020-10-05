@@ -1,0 +1,41 @@
+.title-white{font-size:6em;line-height:1.2em;font-weight:100;color:white;margin:0;}
+.title-black{font-size:6em;line-height:1.2em;font-weight:100;color:#3e3e3e;margin:0;}
+.title-black-center{font-size:6em;line-height:1.2em;font-weight:100;color:#3e3e3e;margin:0; text-align: center;}
+.title-colored {font-size:6em;line-height:1.2em;font-weight:100;color:#fa7bff;margin:0;}
+
+.text-white{width:100%;line-height:30px;word-break:keep-all;color:#ffffff;font-size:15px;margin:0;letter-spacing:0.9px;}
+.text-black{width:50%;line-height:30px;word-break:keep-all;color:black;font-size:15px;margin:0;letter-spacing:0.9px;}
+
+.text-black-right-bold{width:100%;line-height:30px;word-break:keep-all;color:black;font-size:15px;margin:0;letter-spacing:0.9px; text-align: right; font-weight: bold; }
+.text-black-center-bold{width:100%;line-height:30px;word-break:keep-all;color:black;font-size:15px;margin:0;letter-spacing:0.9px; text-align: center; font-weight: bold; }
+.text-black-center{width:100%;line-height:30px;word-break:keep-all;color:black;font-size:15px;margin:0;letter-spacing:0.9px; text-align: center; }
+.text-black-right{width:100%;line-height:30px;word-break:keep-all;color:black;font-size:15px;margin:0;letter-spacing:0.9px; text-align: right;}
+
+@media screen and (max-width:1300px){
+}
+@media screen and (max-width:1100px){
+    .title-black{font-size:4em;}
+    .title-black-center{font-size:4em;}
+    .title-white{font-size:4em;}
+    .title-colored{font-size:4em;}
+
+    .text-white{font-size:12px;line-height:20px;}
+    .text-black{font-size:12px;line-height:20px;}
+    .text-black-right{font-size:12px;line-height:20px;}
+    .text-black-right-bold{font-size:10px;line-height:15px;}
+    .text-black-center-bold{font-size:10px;line-height:15px;}
+    .text-black-center{font-size:10px;line-height:15px;}
+}
+@media screen and (max-width:500px){
+    .title-black{font-size:2em;}
+    .title-black-center{font-size:2em;}
+    .title-white{font-size:2em;}
+    .title-colored{font-size:2em;}
+
+    .text-white{font-size:10px;line-height:15px;}
+    .text-black{font-size:10px;line-height:15px;}
+    .text-black-right{font-size:10px;line-height:15px;}
+    .text-black-right-bold{font-size:10px;line-height:15px;}
+    .text-black-center-bold{font-size:10px;line-height:15px;}
+    .text-black-center{font-size:10px;line-height:15px;}
+}

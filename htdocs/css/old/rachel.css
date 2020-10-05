@@ -1,0 +1,12 @@
+/* rachel */
+.rachel{margin:4px 8px 4px 0;cursor:pointer;position:relative;margin-right:15px;font-weight:400;color:#505050;}
+.rachel>input{position:absolute;left:-9999px;width:0;height:0;}
+.rachel>span.far,
+.rachel>span.fas{color:#d9d9d9;font-size:1.2em;margin-right:2px;}
+.rachel.checked>span.far,
+.rachel.checked>span.fas{color:#fcaf8c;}
+
+.rachel>span.rachel-on{display:none;}
+.rachel>span.rachel-off{display:inline;}
+.rachel.checked>span.rachel-on{display:inline;}
+.rachel.checked>span.rachel-off{display:none;}

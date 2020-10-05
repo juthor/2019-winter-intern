@@ -1,0 +1,12 @@
+media query
+
+css,화면 크기에 따라 조정되는 것 맞춰서 적용되는 것
+
+@media(max-width:800px){
+	div{
+		display:none;
+	}
+}
+
+이렇게 하면 페이지크기에 따라 (max-width:800)최대 800보다 작으면 안나오고 800보다 크면 나오게 됨
+min-width:800이면 최소 800보다 작으면 나오는데 크다면 안나옴

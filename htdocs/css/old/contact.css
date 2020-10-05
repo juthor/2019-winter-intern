@@ -1,0 +1,12 @@
+#locations{}
+#locations .panel{border-radius:0;background-color:transparent;border:0;margin-bottom:40px;box-shadow:none;}
+#locations .panel-heading{padding:0;border-radius:0;background-color:transparent;border-bottom:1px solid #858585;}
+#locations .panel-title>a{display:block;padding:10px 0;color:#333;}
+#locations .panel-body{padding:15px 0;color:#333;}
+
+
+
+.bootstrap-select{width:100%!important;margin-bottom:10px;}
+.bootstrap-select>button{border-radius:0;background-color:transparent;color:#5c5c5c;border-color:#5c5c5c;}
+#btn-contact-send{display:inline-block;background-color:#fff;color:#333;padding:10px 30px;border:1px solid #333;}
+#btn-contact-send:hover{background-color:#333;color:#fff;}

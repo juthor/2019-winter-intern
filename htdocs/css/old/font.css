@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'RNS Camelia';
+    src: url('../../webfonts/RNSCamelia.woff2') format('woff2'),
+    url('../../webfonts/RNSCamelia.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 700;
+    src: local('Spoqa Han Sans Bold'),
+    url('../../webfonts/SpoqaHanSans/SpoqaHanSansBold.woff2') format('woff2'),
+    url('../../webfonts/SpoqaHanSans/SpoqaHanSansBold.woff') format('woff'),
+    url('../../webfonts/SpoqaHanSans/SpoqaHanSansBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 400;
+    src: local('Spoqa Han Sans Regular'),
+    url('../../webfonts/SpoqaHanSans/SpoqaHanSansRegular.woff2') format('woff2'),
+    url('../../webfonts/SpoqaHanSans/SpoqaHanSansRegular.woff') format('woff'),
+    url('../../webfonts/SpoqaHanSans/SpoqaHanSansRegular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 300;
+    src: local('Spoqa Han Sans Light'),
+    url('../../webfonts/SpoqaHanSans/SpoqaHanSansLight.woff2') format('woff2'),
+    url('../../webfonts/SpoqaHanSans/SpoqaHanSansLight.woff') format('woff'),
+    url('../../webfonts/SpoqaHanSans/SpoqaHanSansLight.ttf') format('truetype');
+}
+
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 400;
+ src: url(../../webfonts/nanumsquare/NanumSquareR.eot);
+ src: url(../../webfonts/nanumsquare/NanumSquareR.eot?#iefix) format('embedded-opentype'),
+      url(../../webfonts/nanumsquare/NanumSquareR.woff) format('woff'),
+      url(../../webfonts/nanumsquare/NanumSquareR.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 700;
+ src: url(../../webfonts/nanumsquare/NanumSquareB.eot);
+ src: url(../../webfonts/nanumsquare/NanumSquareB.eot?#iefix) format('embedded-opentype'),
+      url(../../webfonts/nanumsquare/NanumSquareB.woff) format('woff'),
+      url(../../webfonts/nanumsquare/NanumSquareB.ttf) format('truetype');
+}

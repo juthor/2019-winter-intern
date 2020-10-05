@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>example css</title>
+	<style>
+		body{
+			margin:0;
+		}
+		a{
+			color:black;
+			text-decoration: none;
+		}
+		h1{
+			font-size: 50px;
+			text-align: center;
+			border-bottom:1px solid gray;/*아래쪽만 선 나오게 설정하는 것 border로 해놓으면 전체 나옴*/
+			margin:0;
+			padding:20px;
+		}
+		#grid ol{
+			border-right:1px solid gray;
+			width:150px;
+			margin:0;
+			padding:32px;
+		}
+		#grid{
+			display:grid;
+			grid-template-columns:200px 1fr;
+		}
+		#article{
+			padding:25px;
+		}
+		
+	</style>
+</head>
+<body>
+	<h1><a href="index.html"><font color="blue">WEB</font></a></h1>
+	<div id="grid">
+		<ol>
+			<li><a href="1.html">HTML</font></a></li>
+			<li><a href="2.html">css</font></a></li>
+			<li><a href="3.html">javascript</font></a></li>
+			<li><a href="4.html">thor</font></a></li>	
+		</ol>
+
+		<div id="article">
+			<h2>helo mr</h2>
+			hasdfaskdfjlsjdkasflsajflskfjlsjflsjfsajlfjslafajflasfsfsjlfsl
+			<p></p>
+			asdfsafdsafasfsadfsdfasfsfsafsaf
+		</div>
+	</div>
+</body>
+</html>
